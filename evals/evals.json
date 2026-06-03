@@ -1,0 +1,47 @@
+{
+  "skill_name": "hive",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I need a comprehensive competitive analysis of the electric vehicle charging infrastructure market in Europe — who are the main players, what are the pricing models, what's the regulatory environment like, and what should a new entrant's go-to-market strategy look like? I need this to be thorough enough to present to our board next week.",
+      "expected_output": "A multi-section document covering market landscape, pricing models, regulatory overview, and strategic recommendations. Should show the HIVE ANALYSIS block, agent roster, and produce an integrated deliverable.",
+      "files": [],
+      "assertions": [
+        "Output contains a HIVE ANALYSIS block with task family, coupling score, and coordination mode",
+        "At least one final deliverable file exists in outputs/ directory",
+        "Deliverable mentions at least 3 real EV charging companies by name",
+        "Deliverable contains a go-to-market strategy or strategic recommendations section",
+        "Output shows an agent roster with named roles",
+        "Final deliverable is at least 1500 words"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Write me a comprehensive 4000-word guide on the psychology of habits — covering the science behind habit formation, why habits are so hard to break, the role of rewards and cues, and practical evidence-based techniques for building good habits and breaking bad ones. This is for a general audience health and wellness website.",
+      "expected_output": "A complete ~4000-word article. Should show HIVE ANALYSIS block, Construct+Knowledge task family, writing-focused agent roster, and final integrated document.",
+      "files": [],
+      "assertions": [
+        "Output contains a HIVE ANALYSIS block",
+        "At least one final deliverable file exists in outputs/ directory",
+        "Final document is at least 3000 words",
+        "Document covers all 4 required topics: formation science, why hard to break, rewards/cues, practical techniques",
+        "Agent roster includes writing-oriented roles",
+        "Content is accessible to general audience (not overly academic)"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "I'm running a bootstrapped SaaS startup in the project management space targeting small design agencies (5-20 people). I have 3 months of runway left. I need to decide between doubling down on content marketing, trying paid acquisition, building a referral program, or pivoting to a different segment. Do a proper analysis with tradeoffs and give me a concrete recommendation I can act on this week.",
+      "expected_output": "A decision analysis document with structured options comparison, risk analysis, and a concrete recommendation with next steps.",
+      "files": [],
+      "assertions": [
+        "Output contains a HIVE ANALYSIS block with Decide (or hybrid) task family",
+        "At least one final deliverable file exists in outputs/ directory",
+        "All 4 options are explicitly analyzed",
+        "A clear concrete recommendation is made (not just 'it depends')",
+        "Risk analysis is present",
+        "Recommendation includes specific next steps for this week"
+      ]
+    }
+  ]
+}
